@@ -1,0 +1,16 @@
+
+.navigation__list {
+    text-align: center;
+    margin: 5px 15px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: rgb(20, 2, 27);
+    background-color: rgb(233, 203, 241);
+    border-radius: 30px;
+    padding: 5px;
+    line-height: 40px;
+}

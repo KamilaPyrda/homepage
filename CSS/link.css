@@ -1,0 +1,22 @@
+.links {
+    padding-top: 70px;
+}
+
+.link {
+    color: rgb(59, 4, 110);
+    text-decoration: none;
+}
+
+.link:focus {
+    outline: 2px solid currentColor;
+}
+
+.link:hover {
+    color: rgb(62, 16, 105);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: blue;
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza stronka - Trochę informacji o mnie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/navigation.css" rel="stylesheet">
+    <link href="CSS/body.css" rel="stylesheet">
+    <link href="CSS/button.css" rel="stylesheet">
+    <link href="CSS/table.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <link href="CSS/information.css" rel="stylesheet">
+    <link href="CSS/list.css" rel="stylesheet">
+    <link href="CSS/link.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+
+    <header class="header">
+        <h1 class="header__title">Moja pierwsza stronka - Trochę informacji o mnie</h1>
+
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li><a class="navigation__link" href="#interests">Zainteresowania</a></li>
+                <li><a class="navigation__link" href="#literature"> Książki</a></li>
+                <li><a class="navigation__link" href="#music">Muzyka</a></li>
+                <li><a class="navigation__link" href="#work">Praca</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <img class="main__photo" width="135" height="210" src="images/photo.jpg" alt="Kamilka">
+        <button class="button js-button">Włącz ciemny motyw</button>
+        <section class="information" id="interests">
+
+            <h2>Moje zainteresowania</h2>
+
+            <p> 
+                Mieszkam na południu Polski, <em>ale lubię morze</em>. Pracuję w biurze a wielbiam ruch. Często chodzę
+                po górach i zdobywam różne szczyty. Lubie biegać i spędzać czas z rodziną i przyjaciółmi.
+            </p>
+
+            <h2> Dlaczego kurs?</h2>
+            <p>
+                Zapisałam się na kurs dla frontendowców, ponieważ marzy mi się praca, która nie będzie wymagała
+                przywiązania do jednego miejsca. Wydaje mi się, że jeszcze nie znalazłam swojego miejsca na ziemi.
+            </p>
+            <h2>Trochę o mnie</h2>
+            <p> 
+                Jestem niepoprawną optymistką. Zawsze staram się widzieć szklankę do połowy pełną.
+                <br> Uwielbiam diabelnie dobrą zabawę i lubię się dużo śmiać.
+            </p>
+            <p>Chciałabym podróżować po świecie, ponieważ interesują mnie inne kultury i tradycje. Chciałabym również
+                poznać nowych ludzi i mieć przyjaciół w różnych zakątkach świata.</p>
+        </section>
+        <section class="literature" id="literature">
+            <h2>Literatura</h2>
+            <table class="table">
+                <caption class="table__caption">Moje ulubione książki</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header table__cell--columnHeader" scope="col">Tytuł</th>
+                    <th class="table__cell table__cell--header table__cell--columnHeader" scope="col">Autor</th>
+                    <th class="table__cell table__cell--header table__cell--columnHeader" scope="col">Gatunek</th>
+                    <th class="table__cell table__cell--header table__cell--columnHeader" scope="col">Rok wydania</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Cudzoziemka</th>
+                    <td class="table__cell">Maria Kuncewiczowa</td>
+                    <td class="table__cell"> Powieść psychologiczna</td>
+                    <td class="table__cell">1936</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Początek</th>
+                    <td class="table__cell">Andrzej Szczypiorski</td>
+                    <td class="table__cell"> Powieść wojenna</td>
+                    <td class="table__cell">1986</td>
+                </tr>
+
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Jeździec miedziany</th>
+                    <td class="table__cell"> Paullina Simons</td>
+                    <td class="table__cell"> Powieść wojenna</td>
+                    <td class="table__cell">2000</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Morze utraconej miłości</th>
+                    <td class="table__cell" rowspan="2"> Santa Montefiore</td>
+                    <td class="table__cell" rowspan="2"> Romans</td>
+                    <td class="table__cell">2007</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Szkatułka z motylem</th>
+                    <td class="table__cell">2002</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Dziewczyna z pociągu</th>
+                    <td class="table__cell"> Paula Hawkins</td>
+                    <td class="table__cell"> Powieść kryminalna</td>
+                    <td class="table__cell">2015</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Mistrz</th>
+                    <td class="table__cell"> Katarzyna Michalak</td>
+                    <td class="table__cell">Powieść kryminalna</td>
+                    <td class="table__cell">2013</td>
+                </tr>
+            </table>
+        </section>
+        <section class="music" id="music">
+            <h2>Moi ulubieni wykonawcy i ich utwory</h2>
+            <ul class="list list--unordered">
+                <li class="list__item">Andrea Bocelli
+                    <ul class="list">
+                        <li class="list__item">Vivo per lei</li>
+                        <li class="list__item">Perfect Symphony</li>
+                        <li class="list__item">Time To Say Goodbye</li>
+                    </ul>
+                </li>
+                <li class="list__item">Michael Jackson
+                    <ul class="list">
+                        <li class="list__item">Speechless</li>
+                        <li class="list__item">Heal the world</li>
+                        <li class="list__item">You are not alone</li>
+                        <li class="list__item">Dirty Diana</li>
+                    </ul>
+                </li>
+                <li class="list__item">Scorpions
+                    <ul class="list">
+                        <li class="list__item">When you came to my life</li>
+                        <li class="list__item">Wind of change</li>
+                        <li class="list__item">Send me an angel</li>
+                        <li class="list__item">Still loving you</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="work" id="work">
+            <h2>Jak zostać Frontendowcem</h2>
+            <ol class="list">
+                <li>Zapisać się na kurs
+                    <ul class="list">
+                        <li>obejrzeć lekcje</li>
+                        <li>odrobić prace domowe</li>
+                    </ul>
+                </li>
+                <li>Przygotować portfolio</li>
+                <li>Aplikować</li>
+                <li>Przyjąć ofertę😂😜</li>
+            </ol>
+        </section>
+
+        <aside>
+            <h3 class="links">Linki do utworów</h3>
+            <ul>
+                <li> <a 
+                    class="link" 
+                    rel="noreferrer noopener" 
+                    target="_blank"
+                        href="https://www.youtube.com/watch?v=ciawICBvQoE"
+                        title="Andrea Bocelli Vivo per lei na YouTube">
+                        Andrea Bocelli Vivo per lei
+                    </a>
+
+                </li>
+                <li> <a 
+                    class="link" 
+                    rel="noreferrer noopener" 
+                    target="_blank"
+                        href="https://www.youtube.com/watch?v=csARzcsjark"
+                        title="Michael Jackson Speachless na YouTube">
+                        Michael Jackson Speachless
+                    </a>
+                </li>
+                <li> <a 
+                    class="link" 
+                    rel="noreferrer noopener" 
+                    target="_blank"
+                        href="https://www.youtube.com/watch?v=epJG4q3mcqg"
+                        title="Scorpions When You Came Into My Life na YouTube">
+                        Scorpions When You Came Into My Life
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </main>
+    <footer class="footer"> Copyright 2022 Kamila Pyrda Wszelkie prawa zastrzeżone</footer>
+</body>
+
+</html>

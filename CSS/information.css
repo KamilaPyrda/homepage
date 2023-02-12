@@ -1,0 +1,12 @@
+.information {
+    border-width: 2px 6px 10px;
+    border-style: groove;
+    border-color: rgb(183, 135, 227);
+    border-radius: 20px/30px;
+    padding: 20px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    box-shadow: 15px -10px 15px 3px rgb(233, 203, 241);
+    text-shadow: 1px 1px 2px #939293;
+    line-height: 1.5;
+}

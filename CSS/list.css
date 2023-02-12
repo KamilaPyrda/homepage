@@ -1,0 +1,17 @@
+.music {
+    padding-top: 100px;
+}
+
+.list {
+    padding-left: 40px;
+}
+
+.list__item {
+    margin: 10px 0;
+    
+}
+.list--unordered {
+    list-style-type: "😍";
+    color: rgb(35, 3, 66);
+    text-shadow: 1px 1px 1px #939293;
+}

@@ -1,0 +1,6 @@
+.header__title {
+    text-align: center;
+    background-color: rgb(233, 203, 241);
+    border-radius: 20px/30px;
+    padding: 10px;
+}
