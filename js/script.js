@@ -1,4 +1,4 @@
-console.log("Hello everybody");
+console.log("Hello everybody. Ten kod jest już w repozytorium git");
 
 let button = document.querySelector(".js-button");
 let body = document.querySelector(".js-body");
